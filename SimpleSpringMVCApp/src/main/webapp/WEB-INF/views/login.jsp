@@ -31,7 +31,7 @@
 <!-- 								<label> <input type="checkbox" name="remember_me" -->
 <!-- 									id="remember_me"> Admin -->
 <!-- 								</label> -->
-				<label><form:checkbox path="admin"/> Admin tool</label> 
+				<label><form:checkbox path="admin"/> Admin tool (only password)</label> 
 			</p>
 			<p class="submit">
 				<form:button type="submit">Login</form:button>
