@@ -27,5 +27,10 @@ public class LogController {
 		// return modelAndView;
 		return new ModelAndView("main", "user", userData);
 	}
+	
+	@RequestMapping(value="/failed-user", method = RequestMethod.GET)
+	public ModelAndView failed(){
+		return new ModelAndView("failed", "message", "Message: Failed!");
+	}
 
 }
